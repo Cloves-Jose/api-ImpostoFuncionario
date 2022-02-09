@@ -1,0 +1,32 @@
+{
+  "name": "api-impostofuncionario",
+  "version": "1.0.0",
+  "description": "Api que calcula os impostos dos funcionários",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cloves-Jose/api-ImpostoFuncionario.git"
+  },
+  "author": "Cloves José",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cloves-Jose/api-ImpostoFuncionario/issues"
+  },
+  "homepage": "https://github.com/Cloves-Jose/api-ImpostoFuncionario#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "jsontoxml": "^1.0.1",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.16.0",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
